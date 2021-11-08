@@ -5,34 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/fd89dbe139.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos.css">
     <title>Marin_Talavera-Fulgencio-DIW03</title>
 </head>
 
 <body>
-    <div class="container">
+
+    <div class="cont-header flex_row">
         <header>
-            <nav class="menu flex_row items_centrados ">
-                <div class="menu-izda flex_row items_centrados flex_grow1">
-                    <img src="img/Cartagena1-removebg-preview.png" alt="Logo" width="120px" height="120px">
-                    <a href="#">Home</a>
-                    <a href="#">About us</a>
-                    <a href="#">contacto</a>
-                </div>
-                <div class="vacio flex_grow1"></div>
-                <div class="menu-dcha flex_row items_centrados ">
-                    <a href="#">Inicia Sesión</a>
-                    <a href="#">Registro</a>
-                    <input type="text">
-                    <a href="#"><img src="img/fb-icon.png" alt="" width="20px" height="20px"></a>
-                    <a href="#"><img src="img/tw-icon.png" alt="" width="20px" height="20px"></a>
-                </div>
-            </nav>
+            <div class="cont-menu flex_col">
+                <nav class="menu flex_row items_centrados fle ">
+                    <div class="menu-izda flex_row items_centrados flex_grow1">
+                        <a href="#"><img src="img/Cartagena1-removebg-preview.png" alt="Logo" width="150px" height="150px"></a>
+                        <a href="#">Home</a>
+                        <a href="#">About us</a>
+                        <a href="#">Mapa</a>
+                        <a href="#">Ocio</a>
+                        <a href="#">Recursos</a>
+                        <a href="#">Contacto</a>
+                    </div>
+                    <div class="vacio flex_grow1"></div>
+                    <div class="menu-dcha flex_row items_centrados flex_grow1 ">
+                        <a href="#">Inicia Sesión</a>
+                        <a href="#">Registro</a>
+                        <input type="text" class="icono-placeholder" placeholder=" Buscar" width="100px">
+                        <a href="#"><img src="img/fb-icon-color.png" alt="" width="20px" height="20px"></a>
+                        <a href="#"><img src="img/tw-icon-color.png" alt="" width="20px" height="20px"></a>
+                    </div>
+                </nav>
+            </div>
         </header>
-        <main class="main">
-            <video autoplay src="media/video_main.mp4"></video>
-        </main>
     </div>
+    <div class="cont-main flex_row">
+        <div class="media-content">
+            <div class="h1">
+                <h1>Cartagena te infecta...</h1>
+            </div>
+            <div class="button"><button class="btn-main">Reg&iacute;strate</button></div>
+            <div class="h4">
+                <p>El apocalipsis zombie se acerca a Cartagena, nosotros te ayudaremos a sobrevivir con éxito</p>
+            </div>
+            <div class="h2">
+                <h2>... de emociones</h2>
+            </div>
+
+        </div>
+        <video autoplay loop src="media/video_main.mp4" poster="img/poster.jpg"></video>
+    </div>
+    <div class="guia">
+        <div class="cartel  flex_col flex_grow1 flex_row">
+            <img src="img/cartel.png" alt="cartel" width="152px" height="152px">
+        </div>
+    </div>
+
 
 
 </body>

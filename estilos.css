@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #0f1013;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-dcha {
+    display: flex;
+}
+
+.menu-izda {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vacio {
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.items_centrados {
+    align-items: center;
+}
+
+.flex_grow1 {
+    flex-grow: 1;
+}
+
+a {
+    margin-right: 50px;
+}
+
+input {
+    margin-right: 50px;
+}
